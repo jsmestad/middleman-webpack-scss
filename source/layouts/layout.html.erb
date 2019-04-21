@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%= auto_display_favicon_tags if build? %>
+    <%= stylesheet_link_tag "app" %>
+  </head>
+
+  <body>
+    <%= yield %>
+
+    <%= javascript_include_tag "app" %>
+  </body>
+</html>

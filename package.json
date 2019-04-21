@@ -1,0 +1,28 @@
+{
+  "repository": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@fortawesome/fontawesome-free": "^5.8.1",
+    "@fullhuman/postcss-purgecss": "^1.1.0",
+    "autoprefixer": "^9.5.0",
+    "babel-loader": "^8.0.0",
+    "bulma": "^0.7.4",
+    "clean-webpack-plugin": "^2.0.1",
+    "css-loader": "^2.1.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.16.4",
+    "sass-loader": "^7.1.0",
+    "turbolinks": "^5.2.0",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "scripts": {
+    "start": "webpack --mode development --watch --color",
+    "build": "webpack --bail -p"
+  }
+}
